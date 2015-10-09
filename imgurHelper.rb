@@ -6,4 +6,5 @@ AUTHORIZE_URL = https://api.imgur.com/oauth2/authorize?client_id=CLIENT_ID&respo
 
 
 client = Imgur.new(CLIENT_ID)
-client
+image = Imgur::LocalImage.new('C:\Users\Debbie2\Desktop\twit.jpg', title: 'testing')
+uploaded = client.upload(image)
