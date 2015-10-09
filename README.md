@@ -1,0 +1,1 @@
+Simple Project to familiarize myself with Ruby and working with the imgur API.
